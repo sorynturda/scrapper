@@ -145,5 +145,3 @@ def test_post_link_ecrypted():
     if os.path.exists("wiki/" + path + ".dat"):
         os.remove("wiki/" + path + ".dat")
     
-
-    
