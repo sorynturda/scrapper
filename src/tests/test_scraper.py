@@ -14,13 +14,12 @@ class TestScrapper(unittest.TestCase):
         with self.assertRaises(Exception):
             get_info("text inexistent")
 
-
     def test_existent_page(self):
         """
         Url exists
         """
         text = get_info("bucuresti")
-        self.assertNotEqual(text, "")
+        self.assertNotEqual(text[0], "")
 
 
 if __name__ == "__main__":
