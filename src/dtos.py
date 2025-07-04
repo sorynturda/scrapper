@@ -2,5 +2,5 @@
 
 from pydantic import BaseModel
 
-class Linkk(BaseModel):
-    url: str
+class PathDTO(BaseModel):
+    path: str
