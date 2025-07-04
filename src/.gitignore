@@ -1,2 +1,4 @@
 secrets/
 *.dat
+*__pycache__*
+wiki/
